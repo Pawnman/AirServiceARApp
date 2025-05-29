@@ -83,7 +83,7 @@
 <h2>Билд проекта для импровизированного отсека самолёта для Hololens 2:</h2>
 <p>
 <figure>
-   <img src="./imgs/Pic_5.png" width="1000"/>
+   <img src="./imgs/Pic_5.png" width="500"/>
    <figcaption>Рисунок 6 - Сцена с импровизационным отсеком ВС.</figcaption>
   </figure>
 </p>
