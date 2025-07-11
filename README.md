@@ -1,96 +1,70 @@
-<h1>AirServiceARApp или AR-помощник для технических специалистов</h1>
-<p>Помощник по выполнению строго регламентированных процедур на воздушном судне</p>
-<ul>
-  <li>Android/UWP(Univesral Windows Platform)</li>
-  <li>Книжная/Альбомная ориентация</li>
-</ul>
+# AirServiceARApp - AR Assistant for Technical Specialists
 
-<h1>Репозиторий  проекта на GDisk</h1>
-<href>https://drive.google.com/drive/folders/1kZfo8nbCVH4TsjvQ5zomu5GOjeuyxBzS?usp=sharing</href>
+An assistant for performing strictly regulated procedures on aircraft.
 
-<h2>Концепция:</h2>
-<p>Проект представляет из себя приложение-помощника по выполнению технических и сревисных работ на воздушном судне. </p>
-<p>Приложение предназначается как для опытнвх технических специалистов, так и для начинающих. </p>
-<p>Приложение использует разработанный метод адаптивного отслеживания (трекинга) объектов в дополненной реальности, объединяющий в себе два метода (маркерный и 3D-модельный). </p>
+- **Platforms Supported**: Android / UWP (Universal Windows Platform)
+- **Orientation**: Portrait / Landscape
 
-<p>В приложении реализованы два сценария:</p>
-<p>1. Сценарий монтажа электрооборудования/элементов системы электроснабжения воздушного судна.</p>
-<p>2. Сценарий предполётного внешнего осмотра воздушного судна.</p>
+## Project Repository on Google Drive
+[Google Drive Repository](https://drive.google.com/drive/folders/1kZfo8nbCVH4TsjvQ5zomu5GOjeuyxBzS?usp=sharing)
 
-<p>
-<figure>
-   <img src="./imgs/Pic_7.png" width="1000"/>
-   <figcaption>Рисунок 1 - Пользовательский интерфейс</figcaption>
-  </figure>
-</p>
+## Concept:
+The project is an AR-based assistant application designed to assist in technical and service operations on aircraft. This application is intended for both experienced technical specialists and beginners. The application uses an adaptive object tracking method (AR tracking) that combines two methods: marker-based and 3D-model-based tracking.
 
+The application supports two scenarios:
+1. Installation of electrical equipment and power supply system components on the aircraft.
+2. Pre-flight external inspection of the aircraft.
 
-<h2>Жизненный цикл:</h2>
-  <li>1. Запуск приложения по нажатию на кнопку «Войти» в стартовом меню.</li>
-  <li>2. Экран с описанием приложения и сценариев, а также с двумя кнопками для перехода к желаемому сценарию.</li>
-  <li>3.1 Экран с информацией по технике безопасности во время выполнения монтажных работ в системе электроснабжения ВС.</li>
-  <li>3.2 Экран с проецированием месторасположения электрических жгутов для монтажа с местами креплений. Выход из сценария происходит по красной кнопке.</li>
-  <li>4.1 Экран с информацией по технике безопасности во время выполнения предполётного внешнего осмотра ВС.</li>
-  <li>4.2 Экран с проецированием ключевых мест для проверки и осмотра, а также использования «CHECK LIST». Выход из сценария происходит по красной кнопке.</li>
-</li>
+### User Interface:
+![User Interface](./imgs/Pic_7.png)
+*Figure 1 - User Interface*
 
-<h2>Исследования: </h2>
-<p>
-<figure>
-   <img src="./imgs/Pic_1.png" width="1000"/>
-   <figcaption>Рисунок 2 - Исследования видов трекинга, встроенных в Vuforia</figcaption>
-  </figure>
-</p>
-<href>https://drive.google.com/drive/folders/1UVVS9vRTMQKNrEVhYAgVnCg8e3xSWScA?usp=sharing</href>
+## Lifecycle:
+1. Launch the application by pressing the "Log In" button on the start screen.
+2. A screen with an application description and scenarios, as well as two buttons to navigate to the desired scenario.
+3.1 A screen with safety information during electrical installation work on the aircraft's power supply system.
+3.2 A screen projecting the location of electrical cables for installation with attachment points. Exit the scenario via the red button.
+4.1 A screen with safety information for the pre-flight external inspection of the aircraft.
+4.2 A screen projecting key inspection points and using the "CHECK LIST." Exit the scenario via the red button.
 
+## Research:
+![Tracking Research](./imgs/Pic_1.png)
+*Figure 2 - Research on Tracking Methods Integrated in Vuforia*
 
+[Research Files](https://drive.google.com/drive/folders/1UVVS9vRTMQKNrEVhYAgVnCg8e3xSWScA?usp=sharing)
 
-<h2>Билды:</h2>
-<p>Билд проекта для прототипа самолёта Су-26 можно скачать по следующей ссылке:</p>
-<p>
-<figure>
-   <img src="./imgs/Pic_4.png" width="1000"/>
-   <figcaption>Рисунок 3 - Су-26 и его прототип</figcaption>
-  </figure>
-</p>
+## Builds:
+The project build for the Su-26 prototype aircraft can be downloaded from the following link:
+![Su-26 Prototype](./imgs/Pic_4.png)
+*Figure 3 - Su-26 and its prototype*
 
-<href>https://drive.google.com/drive/folders/1C7WJ4_kerAqSUeQjwr-tpGG2lwf7-KaO?usp=sharing</href>
+[Su-26 Build](https://drive.google.com/drive/folders/1C7WJ4_kerAqSUeQjwr-tpGG2lwf7-KaO?usp=sharing)
 
-<h2>Демонстрационный видеоролик работы:</h2>
-<href>https://drive.google.com/drive/folders/1jCs8cl1X0sPeTrEUX30L7zbeGoPQQ0Il?usp=sharing</href>
+## Demo Video:
+[Demo Video Link](https://drive.google.com/drive/folders/1jCs8cl1X0sPeTrEUX30L7zbeGoPQQ0Il?usp=sharing)
 
-<p>Билд проекта для самолёта Су-27 и отсека стойки шасси:</p>
-<href>https://drive.google.com/drive/folders/1hOKxP3gP5wTQn3r-2z7Y3jbQn9inQ0PC?usp=sharing</href>
+The build for the Su-27 aircraft and the landing gear compartment:
 
-<h2>Демонстрационный видеоролик работы (Су-27):</h2>
-<p>
-<figure>
-   <img src="./imgs/Pic_3.png" width="1000"/>
-   <figcaption>Рисунок 4 - Су-27 и его 3D-модель</figcaption>
-  </figure>
-</p>
+[Su-27 and Landing Gear Compartment Build](https://drive.google.com/drive/folders/1hOKxP3gP5wTQn3r-2z7Y3jbQn9inQ0PC?usp=sharing)
 
-<href>https://drive.google.com/drive/folders/1curRWBEl01Ym4-pfPgkoKCoC_ypIg4Gq?usp=sharing</href>
+### Demo Video (Su-27):
+![Su-27 Model](./imgs/Pic_3.png)
+*Figure 4 - Su-27 and its 3D Model*
 
-<h2>Демонстрационный видеоролик работы (отсек МиГ-29):</h2>
+[Su-27 Demo Video](https://drive.google.com/drive/folders/1curRWBEl01Ym4-pfPgkoKCoC_ypIg4Gq?usp=sharing)
 
-<p>
-<figure>
-   <img src="./imgs/Pic_2.png" width="1000"/>
-   <figcaption>Рисунок 5 - Отсек под стойкой шасси МиГ-29</figcaption>
-  </figure>
-</p>
+### Demo Video (MiG-29 Landing Gear Compartment):
+![MiG-29 Landing Gear Compartment](./imgs/Pic_2.png)
+*Figure 5 - MiG-29 Landing Gear Compartment*
 
-<href>https://drive.google.com/drive/folders/17UptBTywJ9kXrzgA1fpMs9hqpBGRts9v?usp=sharing</href>
+[MiG-29 Demo Video](https://drive.google.com/drive/folders/17UptBTywJ9kXrzgA1fpMs9hqpBGRts9v?usp=sharing)
 
-<h2>Билд проекта для импровизированного отсека самолёта для Hololens 2:</h2>
-<p>
-<figure>
-   <img src="./imgs/Pic_5.png" width="500"/>
-   <figcaption>Рисунок 6 - Сцена с импровизационным отсеком ВС.</figcaption>
-  </figure>
-</p>
-<href>https://drive.google.com/drive/folders/1u0q4tF7p8mqf6p2T5dF0YxOjM_k43Ta9?usp=sharing</href>
+## Build for the Improvised Aircraft Compartment for HoloLens 2:
+![Improvised Aircraft Compartment](./imgs/Pic_5.png)
+*Figure 6 - Scene with Improvised Aircraft Compartment*
 
-<h2>Разработчик AR-проекта:</h2>
-<p>1. Пешков Максим (М8О-209М-23)</p>
+[HoloLens 2 Build](https://drive.google.com/drive/folders/1u0q4tF7p8mqf6p2T5dF0YxOjM_k43Ta9?usp=sharing)
+
+## Developer of the AR Project:
+1. Maxim Peshkov (M8O-209M-23)
+
