@@ -20,12 +20,12 @@ The application supports two scenarios:
 *Figure 1 - User Interface*
 
 ## Lifecycle:
-1. Launch the application by pressing the "Log In" button on the start screen.
-2. A screen with an application description and scenarios, as well as two buttons to navigate to the desired scenario.
-3.1 A screen with safety information during electrical installation work on the aircraft's power supply system.
-3.2 A screen projecting the location of electrical cables for installation with attachment points. Exit the scenario via the red button.
-4.1 A screen with safety information for the pre-flight external inspection of the aircraft.
-4.2 A screen projecting key inspection points and using the "CHECK LIST." Exit the scenario via the red button.
+<li>1. Launch the application by pressing the "Log In" button on the start screen.</li>
+<li>2. A screen with an application description and scenarios, as well as two buttons to navigate to the desired scenario.</li>
+<li>3.1 A screen with safety information during electrical installation work on the aircraft's power supply system.</li>
+<li>3.2 A screen projecting the location of electrical cables for installation with attachment points. Exit the scenario via the red button.</li>
+<li>4.1 A screen with safety information for the pre-flight external inspection of the aircraft.</li>
+<li>4.2 A screen projecting key inspection points and using the "CHECK LIST." Exit the scenario via the red button.</li>
 
 ## Research:
 ![Tracking Research](./imgs/Pic_1.png)
